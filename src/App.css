@@ -1,0 +1,96 @@
+#pomodoro-box {
+  margin: 4rem auto;
+  border-radius: 8px; /*95px*/
+  background: linear-gradient(65deg, #ee9ca7, #ffdde1, #ffdde1);
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #ab748d;
+}
+
+.color {
+  background-color: #574144;
+  font-size: 1.6rem;
+  color: white;
+  border-radius:50px;
+}
+.color:hover,
+.color:focus{
+  border:none;
+  cursor:pointer;
+  color:pink;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#time-left {
+  margin: auto 20rem;
+  /*   padding:6rem; */
+  padding: 6rem;
+  text-align: center;
+  background: linear-gradient(65deg, #ffff, #ffff, #fae6ea);
+  font-size: 5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#timer-label {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#left-well {
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(65deg, #fae6ea, #ffff);
+}
+.wells {
+  margin: 0px 30px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#break-length {
+  font-size: 3.5rem;
+}
+
+#session-length {
+  font-size: 3.5rem;
+}
+
+#footer {
+  font-family: "Comfortaa", cursive;
+}
+
+.button {
+  margin: 0px 15px;
+}
+
+/*useLess on buttons div*/
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*media quries for responsiveness*/
+
+@media only screen and (max-width: 650px) {
+  #time-left {
+    font-size: 4.5rem;
+    margin: auto 13rem; 
+  }
+}
+
+ @media only screen and (max-width: 490px) {
+  #time-left {
+    margin: auto 8rem;
+  }
+} 
