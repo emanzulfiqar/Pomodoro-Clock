@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/emanzulfiqar/Pomodoro-Clock/static/css/main.5fee269d.css",
+    "main.js": "/emanzulfiqar/Pomodoro-Clock/static/js/main.5d90b8a6.js",
+    "static/js/787.b1af5461.chunk.js": "/emanzulfiqar/Pomodoro-Clock/static/js/787.b1af5461.chunk.js",
+    "index.html": "/emanzulfiqar/Pomodoro-Clock/index.html",
+    "main.5fee269d.css.map": "/emanzulfiqar/Pomodoro-Clock/static/css/main.5fee269d.css.map",
+    "main.5d90b8a6.js.map": "/emanzulfiqar/Pomodoro-Clock/static/js/main.5d90b8a6.js.map",
+    "787.b1af5461.chunk.js.map": "/emanzulfiqar/Pomodoro-Clock/static/js/787.b1af5461.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fee269d.css",
+    "static/js/main.5d90b8a6.js"
+  ]
+}
